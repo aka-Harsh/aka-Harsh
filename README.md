@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Harsh Mehta</h1>
 <h3 align="center">A passionate Data Science and Machine Learning enthusiast</h3>
-
+<img align="right" height="150" src="https://i.pinimg.com/originals/c8/0d/5a/c80d5a2d2e1504e84a9d98f3cb825442.gif"/>
 - 🔭 I’m currently working on **Flower Prediction Model**
 
 - 🌱 I’m currently learning **Neural Networks**
@@ -17,6 +17,7 @@
 </p>
 
 <h3 align="left">Tools</h3>
+
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
   <img width="12" />
@@ -58,11 +59,11 @@
 </div>
 
 
-<h3 align="left">Stats</h3>
-<img align="right" height="150" src="https://i.pinimg.com/originals/c8/0d/5a/c80d5a2d2e1504e84a9d98f3cb825442.gif"  />
-<div align="left">
-  <img src="https://streak-stats.demolab.com?user=aka-Harsh&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5" height="150" width="200" alt="streak graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=aka-Harsh&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+<h3 align="center">Track My Stats below</h3>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=aka-Harsh&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5" height="180" width="500" alt="streak graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=aka-Harsh&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="180" width="400" alt="languages graph"  />
   
 </div>
 
