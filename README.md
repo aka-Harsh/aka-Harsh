@@ -1,22 +1,23 @@
 <h1 align="center">Hi 👋, I'm Harsh Mehta</h1>
-<h3 align="center">A passionate Data Science and Machine Learning enthusiast</h3>
+<h3 align="center">A passionate Data Science and Machine Learning enthusiast</h3><br>
 <img align="right" height="150" src="https://i.pinimg.com/originals/c8/0d/5a/c80d5a2d2e1504e84a9d98f3cb825442.gif"/>
-- 🔭 I’m currently working on **Flower Prediction Model**
+
+- 🔭 I'm currently working on a **Flower-Prediction-Model**
 
 - 🌱 I’m currently learning **Neural Networks**
 
 - 👯 I’m looking to collaborate on **Machine Learning projects**
 
-- 📫 How to reach me **harsh.work8421@gmail.com**
-
-<h3 align="left">Connect with me:</h3>
+- 📫 You can reach me via **harsh.work8421@gmail.com**
+<br>
+<h3 align="left">🔗 Connect with me:</h3>
 <p align="left">
 <a href="https://instagram.com/harsh.m3hta" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="harsh.m3hta" height="30" width="40" /></a>
 <a href="https://www.hackerrank.com/harsh_work8421" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="harsh_work8421" height="30" width="40" /></a>
 <a href="https://www.leetcode.com/aka-harsh" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="aka-harsh" height="30" width="40" /></a>
 </p>
 
-<h3 align="left">Tools</h3>
+<h3 align="left">🛠 Languages and Tools</h3>
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
@@ -57,14 +58,16 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" height="30" alt="tensorflow logo"  />
 </div>
-
-
-<h3 align="center">Track My Stats below</h3>
+<h3 align="left">🔥 My Stats</h3>
 
 ###
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=aka-Harsh&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
+<div align="left">
+  <img src="https://streak-stats.demolab.com?user=aka-Harsh&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="200" alt="streak graph"  />
+  <img width="5" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=aka-Harsh&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dark&hide_border=false&order=2" height="200" alt="languages graph"  />
+</div>
+
 </div>
 
 ###
