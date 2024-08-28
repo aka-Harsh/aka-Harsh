@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Harsh Mehta</h1>
 <h3 align="center">A passionate Data Science and Machine Learning enthusiast</h3><br>
-<img align="right" height="150" src="https://i.pinimg.com/originals/c8/0d/5a/c80d5a2d2e1504e84a9d98f3cb825442.gif"/>
+<img align="right" height="200" src="https://ugokawaii.com/wp-content/uploads/2023/01/mamemaki-boy.gif"/>
 
 - 🔭 I'm currently working on a **Flower-Prediction-Model**
 
@@ -9,7 +9,6 @@
 - 👯 I’m looking to collaborate on **Machine Learning projects**
 
 - 📫 You can reach me via **harsh.work8421@gmail.com**
-<br>
 <h3 align="left">🔗 Connect with me:</h3>
 <p align="left">
 <a href="https://instagram.com/harsh.m3hta" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="harsh.m3hta" height="30" width="40" /></a>
