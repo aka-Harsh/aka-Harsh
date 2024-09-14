@@ -2,7 +2,7 @@
 <h3 align="center">A passionate Data Science and Machine Learning enthusiast</h3><br>
 <img align="right" height="200" src="https://ugokawaii.com/wp-content/uploads/2023/01/mamemaki-boy.gif"/>
 
-- 🔭 I'm currently working on a **Flower-Prediction-Model**
+- 🔭 I'm currently working on a **Vehicle Number Plate Detector**
 
 - 🌱 I’m currently learning **Neural Networks**
 
