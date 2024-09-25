@@ -6,7 +6,7 @@
 
 - 🌱 I’m currently learning **Neural Networks**
 
-- 👯 I’m looking to collaborate on **Machine Learning projects**
+- 👯 I’m looking to collaborate on **ML and Data  projects**
 
 - 📫 You can reach me via **harsh.work8421@gmail.com**
 <h3 align="left">🔗 Connect with me:</h3>
