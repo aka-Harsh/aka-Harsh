@@ -1,0 +1,834 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Harsh Mehta</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+
+
+	<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+	<script type="text/javascript">
+	(function(){
+		emailjs.init({
+			publicKey: "6_7-Xul0eYxIVWHBd",
+		});
+	})();
+	</script>
+	
+
+  <!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Flaticons  -->
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+	<div id="colorlib-page">
+		
+		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+			<div class="text-center">
+				<div class="author-img" style="background-image: url(images/picofme.png);"></div>
+				<h1 style="text-align: center;" id="colorlib-logo">Harsh Mehta</h1>
+				<span style="text-align: center;" class="position">Data Scientist in India</span>
+			</div>
+			<nav id="colorlib-main-menu" role="navigation" class="navbar">
+				<div id="navbar" class="collapse">
+					<ul>
+						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
+						<li><a href="#" data-nav-section="about">About Me</a></li>
+						<li><a href="#" data-nav-section="services">Certifications</a></li>
+						<li><a href="#" data-nav-section="education">Education</a></li>
+						<li><a href="#" data-nav-section="experience">Experience</a></li>
+						<li><a href="#" data-nav-section="work">Projects</a></li>
+						<li><a href="#" data-nav-section="blog">Community Work</a></li>
+						<li><a href="#" data-nav-section="contact">Contacts</a></li>
+					</ul>
+				</div>
+			</nav>
+
+			<div class="colorlib-footer">
+			<ul>
+					<li><a href="https://x.com/aka_harsh1" target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/twitter-logo-2.svg" height="20"></a></li>
+					<li><a href="https://www.instagram.com/harsh.m3hta/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" height="20"></a></li>
+					<li><a href="https://www.linkedin.com/in/harsh-mehta-59272a291/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/1200px-LinkedIn_icon.svg.png" height="20"></a></li>
+					
+				</ul>
+			</div>
+
+		</aside>
+
+		<div id="colorlib-main">
+
+
+			<section id="colorlib-hero" class="js-fullheight" data-section="home">
+				<style>
+					.hero-section {
+						position: relative;
+						height: 100vh;
+						background-image: url(images/img_bg_1.jpg);
+						background-size: cover;
+						background-position: center;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+					}
+					.overlay {
+						position: absolute;
+						top: 0;
+						left: 0;
+						right: 0;
+						bottom: 0;
+						background: rgba(0,0,0,0.5);
+					}
+					.content {
+						position: relative;
+						z-index: 1;
+						text-align: center;
+						color: white;
+					}
+					.dynamic-text {
+						min-height: 150px; /* Adjust as needed */
+					}
+					.btn2 {
+						display: inline-block;
+						padding: 10px 20px;
+						background-color: transparent;
+						color: black;
+						text-decoration: none;
+						border: 2px solid black;
+						border-radius: 0;
+						margin-top: 20px;
+						transition: all 0.3s ease;
+						width: 200px; /* Adjust this value to your preference */
+					}
+					.btn2:hover {
+						background-color: rgba(69, 58, 58, 0.588);
+						color: white;
+					}
+					
+					
+					.fade-in {
+						animation: fadeIn 0.5s ease-in;
+					}
+					@keyframes fadeIn {
+						from { opacity: 0; }
+						to { opacity: 1; }
+					}
+				</style>
+			</head>
+			<body>
+				<section id="hero" class="hero-section">
+					<div class="overlay"></div>
+					<div class="content">
+						<div id="dynamicText" class="dynamic-text">
+							<h1>Hi! <br>I'm Harsh Mehta</h1>
+							<h2>Yahoo</h2>
+						</div><br>
+						<a href="https://drive.google.com/uc?export=download&id=1ofDEikbQALsSpsLCe6JSahgqCzEzEzA4" class="btn2" download>Download CV <i class="icon-download4"></i></a>
+					</div>
+				</section>
+			
+				<script>
+					const texts = [
+						`<h1>Hi!<br>I'm Harsh Mehta</h1>
+						 <h2>Yahoo</h2>`,
+						`<h1>I am <br>a Data Scientist</h1>
+						 <h2>Brat</h2>`
+					];
+					let currentIndex = 0;
+			
+					function changeText() {
+						const dynamicText = document.getElementById('dynamicText');
+						currentIndex = (currentIndex + 1) % texts.length;
+						dynamicText.innerHTML = texts[currentIndex];
+						dynamicText.classList.remove('fade-in');
+						void dynamicText.offsetWidth; // Trigger reflow
+						dynamicText.classList.add('fade-in');
+					}
+			
+					setInterval(changeText, 3000); // Change text every 3 seconds
+				</script>
+
+			</section>
+
+
+			<section class="colorlib-about" data-section="about">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+
+
+								<div class="col-md-6">
+									<div class="about-desc">
+										<span class="heading-meta">About Me</span>
+										<h2 class="colorlib-heading">Who Am I?</h2>
+										<p><strong>Hi I'm Harsh Mehta</strong> a software developer and a data scientist specializing in machine learning, various Python libraries, and full-stack development using Java. I'm currently learning neural networks and developing an ML model to detect cancer cells, using my passion for technology to help others around me.</p>
+										<p>With a background in computer science and a bachelor’s degree in the same, I’m driven to use data science and ML to solve real-world problems. Feel free to check out my projects and stats on various online platforms 👉</p>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+										<a href="https://www.hackerrank.com/profile/harsh_work8421" target="_blank">
+											<div class="services color-1">
+											<span class="icon2"><img src="https://upload.wikimedia.org/wikipedia/commons/4/40/HackerRank_Icon-1000px.png" height="35"></span>
+											<h3>HackerRank</h3></div></a>
+										</div>
+									
+									<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+										<a href="https://leetcode.com/u/aka-Harsh/" target="_blank">
+											<div class="services color-2">
+											<span class="icon2"><img src="https://raw.githubusercontent.com/jdneo/vscode-leetcode/master/resources/LeetCode.png" height="35"></i></span>
+											<h3>LeetCode</h3></div></a>
+										</div>
+									</div>
+									
+									<div class="col-md-6">
+										<div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
+										<a href="https://github.com/aka-Harsh" target="_blank">
+											<div class="services color-4">
+											<span class="icon2"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" height="35"></i></span>
+											<h3>GitHub</h3></div></a>
+										</div>
+										
+										<div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
+											<a href="https://drive.google.com/drive/folders/1Jdy1sWqHdXIU0NDy5-we9ttZ2coxtBsV?usp=drive_link" target="_blank">
+												<div class="services color-3">
+												<span class="icon2"><img src="https://img.freepik.com/free-vector/trophy_78370-345.jpg" height="35"></i></span>
+												<h3>Achievements</h3></div></a>
+											</div>
+										</div>			
+							
+								<div class="col-md-12">
+							
+								<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+									<div class="progress-wrap">
+										<h3>Machine Learning</h3>
+										<div class="progress">
+											 <div class="progress-bar color-1" role="progressbar" aria-valuenow="85"
+											  aria-valuemin="0" aria-valuemax="100" style="width:85%">
+											<span>85%</span>
+											  </div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+									<div class="progress-wrap">
+										<h3>MySQL</h3>
+										<div class="progress">
+											 <div class="progress-bar color-2" role="progressbar" aria-valuenow="80"
+											  aria-valuemin="0" aria-valuemax="100" style="width:80%">
+											<span>80%</span>
+											  </div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+									<div class="progress-wrap">
+										<h3>Python | Java</h3>
+										<div class="progress">
+											 <div class="progress-bar color-3" role="progressbar" aria-valuenow="75"
+											  aria-valuemin="0" aria-valuemax="100" style="width:75%">
+											<span>75%</span>
+											  </div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+									<div class="progress-wrap">
+										<h3>HTML | CSS | JavaScript</h3>
+										<div class="progress">
+											 <div class="progress-bar color-4" role="progressbar" aria-valuenow="70"
+											  aria-valuemin="0" aria-valuemax="100" style="width:70%">
+											<span>70%</span>
+											  </div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+									<div class="progress-wrap">
+										<h3>Flask | Streamlit</h3>
+										<div class="progress">
+											 <div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
+											  aria-valuemin="0" aria-valuemax="100" style="width:70%">
+											<span>70%</span>
+											  </div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+									<div class="progress-wrap">
+										<h3>TensorFlow | OpenCV</h3>
+										<div class="progress">
+											 <div class="progress-bar color-6" role="progressbar" aria-valuenow="55"
+											  aria-valuemin="0" aria-valuemax="100" style="width:55%">
+											<span>55%</span>
+											  </div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			
+			<section class="colorlib-services" data-section="services">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Certifications</span>
+							<h2 class="colorlib-heading">Here are some of my expertise</h2>
+						</div>
+					</div>
+					<div class="row row-pt-md">
+						<div class="col-md-6 text-center animate-box">
+							<div class="services color-1">
+								<span class="icon">
+									<i class="icon-bulb"></i>
+								</span>
+								<div class="desc">
+									<h3>Machine Learning</h3>
+									<p>Learned to apply machine learning concepts through various job simulations and certifications</p>
+									<br>
+									<a href="https://drive.google.com/drive/folders/1eU-hjrx36JwCqB7FqGPXW6ho_MpRC7Zt?usp=drive_link" target="_blank"><p>View Certificates</p></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 text-center animate-box">
+							<div class="services color-2">
+								<span class="icon">
+									<i class="icon-data"></i>
+								</span>
+								<div class="desc">
+									<h3>Data Science & Analytics</h3>
+									<p>Learned to apply data science concepts through various job simulations and certifications</p>
+									<br>
+									<a href="https://drive.google.com/drive/folders/1FGrORpg0UmxN8jMYEOGXeaObxEnmKxym?usp=drive_link" target="_blank"><p>View Certificates</p></a>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-md-6 text-center animate-box">
+							<div class="services color-4">
+								<span class="icon">
+									<i class="icon-layers2"></i>
+								</span>
+								<div class="desc">
+									<h3>Database Management</h3>
+									<p>Completed certifications and learned to apply database management concepts through various tools</p>
+									<br>
+									<a href="https://drive.google.com/drive/folders/1IlpNxZ4rFDEUTwJIwXMydz2ZvBUWTbPp?usp=drive_link" target="_blank"><p>View Certificates</p></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 text-center animate-box">
+							<div class="services color-5">
+								<span class="icon">
+									<i class="icon-phone3"></i>
+								</span>
+								<div class="desc">
+									<h3>Software Development</h3>
+									<p>Developed a range of projects and explored diverse concepts through job simulations and certifications</p>
+									<br>
+									<a href="https://drive.google.com/drive/folders/1SIw0ph9tN6VSDUdn-RcI2yoUFk_aZ0Jr?usp=drive_link" target="_blank"><p>View Certificates</p></a>
+								</div>
+							</div>
+						</div>
+
+					</section>
+
+						<section class="colorlib-education" data-section="education">
+							<div class="colorlib-narrow-content">
+								<div class="row">
+									<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+										<span class="heading-meta">Education</span>
+										<h2 class="colorlib-heading animate-box">Education</h2>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+										<div class="fancy-collapse-panel">
+											<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+			
+			
+												<div class="panel panel-default">
+													<div class="panel-heading" role="tab" id="headingOne">
+														<h4 class="panel-title">
+															<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Bachelor of Technology
+															</a>
+														</h4>
+													</div>
+													<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+														 <div class="panel-body">
+															<li>Pursued B.Tech in Computer Science and Engineering (Specialization in Cyber Security) at <strong>Presidency University, Bangalore</strong></li>
+															<li>Achieved an overall<strong> CGPA of 8.7</strong></li>
+			
+														 </div>
+													</div>
+												</div>
+												
+												<div class="panel panel-default">
+													<div class="panel-heading" role="tab" id="headingTwo">
+														<h4 class="panel-title">
+															<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Higher Secondary Education
+															</a>
+														</h4>
+													</div>
+													<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+														<div class="panel-body">
+															
+															<li>Completed class 12th at <strong>Sri Chaitanya PU Vidyaranyapura, Bangalore</strong></li>
+															<li>Achieved an overall<strong> Percentage of 65.8</strong></li>
+															
+														</div>
+													</div>
+												</div>
+												<div class="panel panel-default">
+													<div class="panel-heading" role="tab" id="headingThree">
+														<h4 class="panel-title">
+															<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Secondary Education
+															</a>
+														</h4>
+													</div>
+													<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+														<div class="panel-body">
+															<li>Completed class 10th at <strong>K.V. No. 1 Jalahalli West, Bangalore</strong></li>
+															<li>Achieved an overall<strong> CGPA of 8.8</strong></li>
+														</div>
+													</div>
+												</div>
+			
+												
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<section class="colorlib-experience" data-section="experience">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Experience</span>
+							<h2 class="colorlib-heading animate-box">Research and Work Experience</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+				         <div class="timeline-centered">
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+
+					               <div class="timeline-icon color-1">
+					                  <i class="icon-briefcase3"></i>
+					               </div>
+
+					               <div class="timeline-label">
+					                  <h2>Software Development Intern at UST Global<span>  July 2024- Currently Ongoing</span></h2>
+					                  <p>Working in UST global as a software devlopement intern and learing and implementing technologies like <strong>Java, Spring boot, HTML, CSS</strong> and database managemet using <strong>MySQL</strong>.</p>
+					               </div>
+					            </div>
+					         </article>
+
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-2">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#" target="_blank" >Deepfake Image Detection Leveraging FPN and ResNet50 Neural Networks</a> <span> Sept 2024 - Currently Ongoing </span></h2>
+					                  <p>Devloped a deepfake images detector using FPN and ResNet50 neural network architecture and achived a detection accuracy of more than 90%. The paper has been submiteed to IEEE for reviw and pulication, and will be updated on my website soon.	 
+									  </p>
+									  <li><strong>The paper is under review by IEEE. View the submitted article</strong><a href="#" target="_blank"> here</a>.</li>
+									  <li><strong>View the project</strong><a href="https://github.com/aka-Harsh/DeepFake-Detection" target="_blank"> here</a>.</li>
+									</div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-3">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#" target="_blank">Analysis of Different Machine Learning Models for Credit Card Fraud Detection</a> <span> Aug 2024- Oct 2024</span></h2>
+					                  <p>Completed a performance analysis of various machine learning models like Regeression model, Clustering Model, Decision Tree Model, and Convolutional Neural network model.</p>
+									  <li><strong>View the paper</strong><a href="#" target="_blank"> here</a>.</li>
+									  <li><strong>View the project</strong><a href="https://github.com/aka-Harsh/Credit-Card-Fraud-Detection" target="_blank"> here</a>.</li>
+									</div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-4">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="https://ijrpr.com/uploads/V5ISSUE1/IJRPR21752.pdf" target="_blank">mydeed- A blockchain based storage solution for officail documents</a> <span>Oct 2023-Jan 2024</span></h2>
+					                  <p>As a team of three we created a blockchain based storage solution on Ethereum blockchain where users can add, display, share and revoke access to their documents with other users.</p>
+									  <li><strong>View the paper</strong><a href="https://ijrpr.com/uploads/V5ISSUE1/IJRPR21752.pdf" target="_blank"> here</a>.</li>
+									  <li><strong>View the project</strong><a href="https://github.com/myDeed/myDeed" target="_blank"> here</a>.</li>
+					               </div>
+					            </div>
+					         </article>
+
+					         
+
+					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-none">
+					               </div>
+					            </div>
+					         </article>
+					      </div>
+					   </div>
+				   </div>
+				</div>
+			</section>
+
+			<section class="colorlib-work" data-section="work">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">My Projects</span>
+							<h2 class="colorlib-heading animate-box">Recent Projects</h2>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+							<div class="project" style="background-image: url(images/sentiment-analysis.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="https://github.com/aka-Harsh/Sentiment-Analysis" target="_blank">Sentiment Analysis</a></h3>
+										<span>Predicts user sentiments by taking feedbacks</span>
+										<p class="icon">
+											
+											<span><a href="https://github.com/aka-Harsh/Sentiment-Analysis" target="_blank"><i class="icon-eye"></i> View this Project</a></span>
+											
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 animate-box" data-animate-effect="fadeInRight">
+							<div class="project" style="background-image: url(images/movie-recommender.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="https://github.com/aka-Harsh/Movie-Recommender-System" target="_blank">Movie Recommendation System</a></h3>
+										<span>Recommend movies based on user choices and reviews</span>
+										<p class="icon">
+											
+											<span><a href="https://github.com/aka-Harsh/Movie-Recommender-System" target="_blank"><i class="icon-eye"></i> View this Project</a></span>
+											
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 animate-box" data-animate-effect="fadeInTop">
+							<div class="project" style="background-image: url(images/House-predictor.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="https://github.com/aka-Harsh/House-Rent-Predictor" target="_blank">House Rent Predictor</a></h3>
+										<span>Predicts house rent for Indian metro cities</span>
+										<p class="icon">
+											
+											<span><a href="https://github.com/aka-Harsh/House-Rent-Predictor" target="_blank"><i class="icon-eye"></i> View this Project</a></span>
+											
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 animate-box" data-animate-effect="fadeInBottom">
+							<div class="project" style="background-image: url(images/vehicle-plate.png);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="https://github.com/aka-Harsh/Vehicle-Plate-Detector" target="_blank">Vehicle Plate Detector</a></h3>
+										<span>Detect vehicle number plates using python</span>
+										<p class="icon">
+											
+											<span><a href="https://github.com/aka-Harsh/Vehicle-Plate-Detector" target="_blank"><i class="icon-eye"></i> View this Project</a></span>
+											
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+							<div class="project" style="background-image: url(images/sign-language.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="https://github.com/aka-Harsh/Sign-Language-Detection" target="_blank">Sign Language Detector</a></h3>
+										<span>Identifies sign language symbols and converts them to words</span>
+										<p class="icon">
+											<span><a href="https://github.com/aka-Harsh/Sign-Language-Detection" target="_blank"><i class="icon-eye"></i> View this Project</a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 animate-box" data-animate-effect="fadeInRight">
+							<div class="project" style="background-image: url(images/face-recognition.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="https://github.com/aka-Harsh/Facial-Recognition-Attendance" target="_blank">Facial Recognition Attendance System</a></h3>
+										<span>Maintains daily attendance by utilizing facial recognition</span>
+										<p class="icon">
+											<span><a href="https://github.com/aka-Harsh/Facial-Recognition-Attendance" target="_blank"><i class="icon-eye"></i> View this Project</a></span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box">
+							<p><a href="https://github.com/aka-Harsh?tab=repositories" class="btn btn-primary btn-lg btn-load-more" target="_blank">View More</a></p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="colorlib-blog" data-section="blog">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Community Work</span>
+							<h2 class="colorlib-heading">Giving Back to society</h2>
+						</div>
+					</div>
+
+
+
+					<style>
+						/* Add hover effect for the images */
+						.blog-entry img {
+						  transition: transform 0.3s ease;
+						}
+						
+						.blog-entry img:hover {
+						  transform: scale(1.1); /* Scale the image slightly on hover */
+						}
+						</style>
+						
+						<div class="row">
+						  <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+							  <a href="https://drive.google.com/file/d/1qE28TIZFEixTVG7-l84belX9x9SF1YVM/view?usp=drive_link" target="_blank">
+								<img src="images/Teaching.jpeg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com">
+							  </a>
+							  <div class="desc"><br>
+								<span><small>July 20, 2023</small> | <small>Jeevan Jyoti Kala Kendra</small> | <small>Muzaffarpur, India</small></span>
+								<h3><a href="https://drive.google.com/file/d/1qE28TIZFEixTVG7-l84belX9x9SF1YVM/view?usp=drive_link" target="_blank">Teaching and Volunteering</a></h3>
+								<p>I volunteered with Jeevan Jyoti Kala Kendra, contributing to a range of social initiatives, including teaching and community cleaning efforts.</p>
+							  </div>
+							</div>
+						  </div>
+						  
+						  <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="blog-entry">
+							  <a href="https://drive.google.com/file/d/1W-_BCLXLtz7usFXIH_ApElp2_wGWKfQD/view?usp=drive_link" target="_blank">
+								<img src="images/Animal_shelter.png" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com">
+							  </a>
+							  <div class="desc"><br>
+								<span><small>September 5, 2023</small> | <small>Charlie's Animal Rescue Centre (CARE)</small> | <small>Bangalore, India</small></span>
+								<h3><a href="https://drive.google.com/file/d/1W-_BCLXLtz7usFXIH_ApElp2_wGWKfQD/view?usp=drive_link" target="_blank">Donation for Animal Shelter Home</a></h3>
+								<p>We took the initiative to support an animal shelter by donating food, money, and offering care to ensure the well-being of the animals.</p>
+							  </div>
+							</div>
+						  </div>
+						  
+						  <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+							  <a href="https://drive.google.com/file/d/1cPmawuIQgYVLCCDvNkMiHSi02oNMr16E/view?usp=drive_link" target="_blank">
+								<img src="images/Blood_donation.png" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com">
+							  </a>
+							  <div class="desc"><br>
+								<span><small>April 7, 2022</small> | <small>National Institute of Mental Health & Neuro Science</small> | <small>Bangalore, India</small></span>
+								<h3><a href="https://drive.google.com/file/d/1cPmawuIQgYVLCCDvNkMiHSi02oNMr16E/view?usp=drive_link" target="_blank">Volunteering for Blood Donation</a></h3>
+								<p>I took the initiative to donate blood at a transfusion center, with the goal of helping someone in need within society.</p>
+							  </div>
+							</div>
+						  </div>
+						</div>
+						
+
+
+					
+				</div>
+			</section>
+
+
+			<section class="colorlib-contact" data-section="contact">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Get in Touch</span>
+							<h2 class="colorlib-heading">Contacts</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-5">
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-globe-outline"></i>
+								</div>
+								<div class="colorlib-text">
+									<p>harsh.work8421@gmail.com</p>
+								</div>
+							</div>
+			
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-map"></i>
+								</div>
+								<div class="colorlib-text">
+									<p>Veersandra, Bangalore</p>
+								</div>
+							</div>
+			
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-phone"></i>
+								</div>
+								<div class="colorlib-text">
+									<p>+91 86183 00483</p>
+								</div>
+							</div>
+						</div>
+			
+						<div class="col-md-7 col-md-push-1">
+							<div class="row">
+								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
+									<form onsubmit="sendMail(event)">
+										<div class="form-group">
+											<input type="text" class="form-control" id="name" placeholder="Name" required>
+										</div>
+										<div class="form-group">
+											<input type="email" class="form-control" id="email" placeholder="Email" required>
+										</div>
+										<div class="form-group">
+											<input type="text" class="form-control" id="subject" placeholder="Subject" required>
+										</div>
+										<div class="form-group">
+											<textarea name="" id="message" cols="30" rows="7" class="form-control" placeholder="Message" required></textarea>
+										</div>
+										<div class="form-group">
+											<input type="submit" class="btn btn-primary btn-send-message" value="Send Message">
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<script>
+			function sendMail(event) {
+				event.preventDefault(); // Prevent default form submission
+				let params = {
+					name: document.getElementById("name").value,
+					email: document.getElementById("email").value,
+					subject: document.getElementById("subject").value,
+					message: document.getElementById("message").value,
+				};
+			
+				emailjs.send("service_17l29om", "template_6wc3ick", params)
+					.then((response) => {
+						alert("Email Sent! I will reach back to you as soon as possible.");
+						document.getElementById("name").value = ''; // Clear the form
+						document.getElementById("email").value = '';
+						document.getElementById("subject").value = '';
+						document.getElementById("message").value = '';
+					})
+					.catch((error) => {
+						alert("Oops! Something went wrong. Please try again later.");
+						console.error("Error sending email:", error);
+					});
+			}
+			</script>
+			
+					</div>
+				</div>
+			
+
+
+		</div><!-- end:colorlib-main -->
+	<!-- end:container-wrap -->
+	</div><!-- end:colorlib-page -->
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Owl carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Counters -->
+	<script src="js/jquery.countTo.js"></script>
+	
+	
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
