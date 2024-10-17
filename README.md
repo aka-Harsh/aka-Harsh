@@ -12,8 +12,12 @@
 <h3 align="left">🔗 Connect with me:</h3>
 <p align="left">
 <a href="https://instagram.com/harsh.m3hta" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="harsh.m3hta" height="30" width="40" /></a>
+<img width="12" />
 <a href="https://www.hackerrank.com/harsh_work8421" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="harsh_work8421" height="30" width="40" /></a>
+<img width="12" />
 <a href="https://www.leetcode.com/aka-harsh" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="aka-harsh" height="30" width="40" /></a>
+<img width="12" />
+<a href="https://www.linkedin.com/in/harsh-mehta-59272a291/" target="blank"><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/1200px-LinkedIn_icon.svg.png" alt="aka-harsh" height="30" width="30" /></a>
 </p>
 
 <h3 align="left">🛠 Languages and Tools</h3>
