@@ -19,7 +19,7 @@
 <img width="20" />
 <a href="https://www.leetcode.com/aka-harsh" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="aka-harsh" height="30" width="40" /></a>
 <img width="20" />
-<a href="https://x.com/aka_harsh1" target="blank"><img align="center" src="https://vectorseek.com/wp-content/uploads/2023/07/Twitter-X-Logo-Vector-01-2.jpg" alt="aka-harsh" height="35" width="35" /></a>
+<a href="https://x.com/aka_harsh1" target="blank"><img align="center" src="https://seeklogo.com/images/T/twitter-x-logo-F7DCE5534C-seeklogo.com.png" alt="aka-harsh" height="35" width="35" /></a>
 </p>
 
 <h3 align="left">🛠 Languages and Tools</h3>
