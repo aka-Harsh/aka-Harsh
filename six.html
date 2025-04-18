@@ -1,0 +1,415 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Machine Learning Certifications - Harsh Mehta</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+	
+	<!-- Include the same CSS as your main page -->
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/flexslider.css">
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+    
+    <style>
+        /* Certificate styles */
+        .certificate-container {
+            padding: 40px;
+        }
+        
+        .certificate-row {
+            margin-bottom: 40px;
+        }
+        
+        .certificate-item {
+            margin-bottom: 30px;
+            position: relative;
+            cursor: pointer;
+        }
+        
+        .certificate-preview {
+            width: 100%;
+            height: 220px;
+            border: 1px solid #e0e0e0;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+            padding: 10px;
+            background-color: #f9f9f9;
+            position: relative;
+            transition: all 0.3s ease;
+            overflow: hidden;
+        }
+        
+        .certificate-preview:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+        }
+        
+        .certificate-img {
+            width: 100%;
+            height: 180px;
+            object-fit: contain;
+            transition: transform 0.3s ease;
+            display: block;
+        }
+        
+        .certificate-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(44, 152, 240, 0);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: all 0.3s ease;
+        }
+        
+        .certificate-preview:hover .certificate-overlay {
+            background: rgba(44, 152, 240, 0.2);
+            opacity: 1;
+        }
+        
+        .certificate-preview:hover .certificate-img {
+            transform: scale(1.05);
+        }
+        
+        .view-certificate {
+            background: rgba(255, 255, 255, 0.9);
+            color: #2c98f0;
+            padding: 8px 15px;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: 500;
+            transform: translateY(20px);
+            opacity: 0;
+            transition: all 0.3s ease;
+        }
+        
+        .certificate-preview:hover .view-certificate {
+            transform: translateY(0);
+            opacity: 1;
+        }
+        
+        .certificate-title {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 10px;
+            margin: 0;
+            font-size: 14px;
+            font-weight: 500;
+            text-align: center;
+            color: #333;
+            border-top: 1px solid #eaeaea;
+        }
+        
+        .back-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #2c98f0;
+            color: white;
+            border-radius: 4px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            margin-bottom: 20px;
+        }
+        
+        .back-btn:hover {
+            background-color: #1c7ac8;
+            color: white;
+        }
+        
+        /* Certificate Modal/Lightbox */
+        .certificate-modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            padding-top: 50px;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+        
+        .modal-content {
+            margin: auto;
+            display: block;
+            max-width: 90%;
+            max-height: 90%;
+        }
+        
+        .modal-caption {
+            margin: auto;
+            display: block;
+            width: 80%;
+            max-width: 700px;
+            text-align: center;
+            color: white;
+            padding: 10px 0;
+            height: 50px;
+            font-size: 18px;
+        }
+        
+        .close-modal {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+        
+        .close-modal:hover,
+        .close-modal:focus {
+            color: #bbb;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        
+        /* Animation for certificates */
+        .animate-certificate {
+            animation: fadeInUp 0.5s ease-out forwards;
+            opacity: 0;
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* Apply different animation delays */
+        .delay-1 {
+            animation-delay: 0.1s;
+        }
+        .delay-2 {
+            animation-delay: 0.2s;
+        }
+        .delay-3 {
+            animation-delay: 0.3s;
+        }
+        .delay-4 {
+            animation-delay: 0.4s;
+        }
+        .delay-5 {
+            animation-delay: 0.5s;
+        }
+        .delay-6 {
+            animation-delay: 0.6s;
+        }
+    </style>
+</head>
+<body>
+	<div id="colorlib-page">
+		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+			<div class="text-center">
+				<div class="author-img" style="background-image: url(images/picofme.png);"></div>
+				<h1 style="text-align: center;" id="colorlib-logo">Harsh Mehta</h1>
+				<span style="text-align: center;" class="position">Data Scientist in India</span>
+			</div>
+			<nav id="colorlib-main-menu" role="navigation" class="navbar">
+				<div id="navbar" class="collapse">
+					<ul>
+						<li><a href="index.html#home">Home</a></li>
+						<li><a href="index.html#about">About Me</a></li>
+						<li class="active"><a href="index.html#services">Certifications</a></li>
+						<li><a href="index.html#education">Education</a></li>
+						<li><a href="index.html#experience">Experience</a></li>
+						<li><a href="index.html#work">Projects</a></li>
+						<li><a href="index.html#blog">Community Work</a></li>
+						<li><a href="index.html#contact">Contacts</a></li>
+					</ul>
+				</div>
+			</nav>
+			<br><br>
+
+			<div class="colorlib-footer">
+			<ul>
+					<li><a href="https://x.com/aka_harsh1" target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/twitter-logo-2.svg" height="20"></a></li>
+					<li><a href="https://www.instagram.com/harsh.m3hta/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" height="20"></a></li>
+					<li><a href="https://www.linkedin.com/in/harsh-mehta-59272a291/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/1200px-LinkedIn_icon.svg.png" height="20"></a></li>
+				</ul>
+			</div>
+			<br><br><br>
+		</aside>
+
+		<div id="colorlib-main">
+			<div class="colorlib-narrow-content">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="colorlib-heading"><br>🏆 Achievements</h2>
+                        <a href="index.html#about" class="back-btn"><i class="icon-arrow-left3"></i> Back to Certifications</a>
+                    </div>
+                </div>
+                
+                <div class="certificate-container">
+                    <!-- First row of certificates -->
+                    <div class="row certificate-row">
+                        <div class="col-md-4">
+                            <div class="certificate-item animate-certificate delay-1" onclick="openModal('cert1')">
+                                <div class="certificate-preview">
+                                    <img src="images/myDeed Publicaton Certificate_page-0001.jpg" alt="Certificate 1" class="certificate-img">
+                                    <div class="certificate-overlay">
+                                        <div class="view-certificate">View Certificate</div>
+                                    </div>
+                                    <div class="certificate-title">My Deed Publication</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="certificate-item animate-certificate delay-2" onclick="openModal('cert2')">
+                                <div class="certificate-preview">
+                                    <img src="images/IRJET- Harsh Mehta.jpg" alt="Certificate 2" class="certificate-img">
+                                    <div class="certificate-overlay">
+                                        <div class="view-certificate">View Certificate</div>
+                                    </div>
+                                    <div class="certificate-title">IRJET Publication</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="certificate-item animate-certificate delay-3" onclick="openModal('cert3')">
+                                <div class="certificate-preview">
+                                    <img src="images/Vision_Harsh.png" alt="Certificate 3" class="certificate-img">
+                                    <div class="certificate-overlay">
+                                        <div class="view-certificate">View Certificate</div>
+                                    </div>
+                                    <div class="certificate-title">VISION Competition</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Second row of certificates -->
+                     <!-- <div class="row certificate-row">
+                        <div class="col-md-4">
+                            <div class="certificate-item animate-certificate delay-4" onclick="openModal('cert4')">
+                                <div class="certificate-preview">
+                                    <img src="images/SQL/sql_basic certificate (1)_page-0001.jpg" alt="Certificate 4" class="certificate-img">
+                                    <div class="certificate-overlay">
+                                        <div class="view-certificate">View Certificate</div>
+                                    </div>
+                                    <div class="certificate-title">SQL Basic HackerRank</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="certificate-item animate-certificate delay-5" onclick="openModal('cert5')">
+                                <div class="certificate-preview">
+                                    <img src="images/SQL/SQL_DS_page-0001.jpg" alt="Certificate 5" class="certificate-img">
+                                    <div class="certificate-overlay">
+                                        <div class="view-certificate">View Certificate</div>
+                                    </div>
+                                    <div class="certificate-title">SQL for DS</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="certificate-item animate-certificate delay-6" onclick="openModal('cert6')">
+                                <div class="certificate-preview">
+                                    <img src="/api/placeholder/400/300" alt="Certificate 6" class="certificate-img">
+                                    <div class="certificate-overlay">
+                                        <div class="view-certificate">View Certificate</div>
+                                    </div>
+                                    <div class="certificate-title">Machine Learning Cert 6</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div> 
+                
+                <!-- The Modal/Lightbox -->
+                <div id="certificateModal" class="certificate-modal">
+                    <span class="close-modal" onclick="closeModal()">&times;</span>
+                    <img class="modal-content" id="modalImage">
+                    <div id="modalCaption" class="modal-caption"></div>
+                </div>
+            </div>
+		</div>
+	</div>
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Owl carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Counters -->
+	<script src="js/jquery.countTo.js"></script>
+	
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
+	
+	<!-- Certificate Modal JavaScript -->
+	<script>
+	    // Get the modal
+	    var modal = document.getElementById("certificateModal");
+	    var modalImg = document.getElementById("modalImage");
+	    var captionText = document.getElementById("modalCaption");
+	    
+	    // Function to open the modal
+	    function openModal(certId) {
+	        modal.style.display = "block";
+	        
+	        // Get the clicked certificate info
+	        var certItem = document.querySelector('[onclick="openModal(\'' + certId + '\')"]');
+	        var img = certItem.querySelector('.certificate-img');
+	        var title = certItem.querySelector('.certificate-title').textContent;
+	        
+	        modalImg.src = img.src;
+	        captionText.innerHTML = title;
+	    }
+	    
+	    // Function to close the modal
+	    function closeModal() {
+	        modal.style.display = "none";
+	    }
+	    
+	    // Close the modal when clicking outside of the image
+	    modal.addEventListener('click', function(event) {
+	        if (event.target === modal) {
+	            closeModal();
+	        }
+	    });
+	    
+	    // Close the modal with Escape key
+	    document.addEventListener('keydown', function(event) {
+	        if (event.key === "Escape") {
+	            closeModal();
+	        }
+	    });
+	</script>
+
+</body>
+</html>
