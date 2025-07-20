@@ -14,6 +14,7 @@
 <p align="left">
 <a href="https://instagram.com/harsh.m3hta" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="harsh.m3hta" height="30" width="40" /></a>
 <a href="https://www.hackerrank.com/harsh_work8421" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="harsh_work8421" height="30" width="40" /></a>
+<a href="https://www.kaggle.com/harshme3hta" target="blank"><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Kaggle_Logo.svg/1200px-Kaggle_Logo.svg.png" alt="harsh_work8421" height="30" width="40" /></a>
 <a href="https://www.leetcode.com/aka-harsh" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="aka-harsh" height="30" width="40" /></a>
 </p>
 
