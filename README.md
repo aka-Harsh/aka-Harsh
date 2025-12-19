@@ -2,9 +2,9 @@
 <h3 align="center">A passionate Data Science and Machine Learning enthusiast</h3><br>
 <img align="right" height="150" src="https://i.pinimg.com/originals/c8/0d/5a/c80d5a2d2e1504e84a9d98f3cb825442.gif"/>
 
-- 🔭 I'm currently working on contributing to **Open Scource Projects**
+- 🔭 I'm currently contributing to **Open Scource Projects**
 
-- 🌱 I’m currently learning **Neural Networks**
+- 🌱 I’m currently learning **Deep Learning**
 
 - 👯 I’m looking to collaborate on **Machine Learning Projects**
 
@@ -12,7 +12,7 @@
 <br>
 <h3 align="left">🔗 Connect with me:</h3>
 <p align="left">
-<a href="https://instagram.com/harsh.m3hta" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="harsh.m3hta" height="30" width="40" /></a>
+<a href="https://aka-harsh.github.io/aka-Harsh/" target="blank"><img align="center" src="https://www.freeiconspng.com/uploads/website-icon-18.png" alt="harsh.m3hta" height="30" width="30" /></a>
   <img width="12" />
 <a href="https://www.hackerrank.com/harsh_work8421" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="harsh_work8421" height="30" width="40" /></a>
   <img width="12" />
@@ -40,8 +40,6 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="30" alt="git logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="30" alt="github logo"  />
-  <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="30" alt="jupyter logo"  />
   <img width="12" /><br><br>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" height="30" alt="opencv logo"  />
@@ -53,8 +51,6 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="30" alt="java logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="30" alt="cplusplus logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" height="30" alt="flask logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="30" alt="docker logo"  />
   <img width="12" />
